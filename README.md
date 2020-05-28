@@ -5,7 +5,7 @@ This project is part of Microsoft Student Accelerator 2020: AI & Advanced Analyt
 ## Summary
 Concrete is one of the most important materials in the world and is ubiquitous in buildings. However, unlike other equally important materials, concrete is highly complex in its composition and formation at the molecular level. Due to this, predicting its strength through physically derived models is particularly difficult and predictions largely rely on experimental data.
 
-This project aims to predict the compressive strength of concrete with an artificial neural network from a dataset provided by Yeh, 1998. Through the guidance of Yeh and others [<sup>[1]</sup>](#References), a model for regression is built with TensorFlow's implementation of Keras with 8 input parameters, X hidden layers and 1 output layer.
+This project aims to predict the compressive strength of concrete with an artificial neural network from a dataset provided by Yeh, 1998. Through the guidance of Yeh and others [<sup>[1]</sup>](#References), a model for regression is built with TensorFlow's implementation of Keras with 8 input parameters, 3 hidden layers and 1 output layer.
 
 ## Environment Setup
 This project uses TensorFlow 2.2.0 and Keras Tuner 1.0.1. Instructions for installing TensorFlow locally can be found [here](https://www.tensorflow.org/install). GPU compute is also used to accelerate training.
