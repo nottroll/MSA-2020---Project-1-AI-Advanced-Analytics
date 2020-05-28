@@ -25,7 +25,7 @@ This project uses TensorFlow 2.2.0 and Keras Tuner 1.0.1. Instructions for insta
  - TensorFlow and Keras are very beginner friendly and have abundant resources for learning.
  - Resources that were particularly useful include Kaggle, Microsoft Learn, TensorFlow Tutorials, François Chollet, Weights & Biases
  - Overfitting is very prevalent and many factors will lead to it. However, there are also many strategies to prevent overfitting and metrics that can be interpreted to monitor it. 
- - Importance of tuning hyperparameters as they can greatly increase the model performance and tuning can be perform through training loop manually or through automation.
+ - Importance of tuning hyperparameters as they can greatly increase the model performance and tuning can be performed through training loop manually or through automation.
  - Understanding and manipulating the data is vital in model success. Although, I am not sure if I manipulated the data properly to squeeze the most performance out of it.
  - From researching, other machine learning algorithms like random forest seem to be effective on this dataset.
  - Since this dataset had some clustering, it could be beneficial to split dataset into clusters and perform regression on each.
