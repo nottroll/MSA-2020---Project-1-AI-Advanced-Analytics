@@ -1,6 +1,6 @@
 
 # Predicting Concrete Strength with Artificial Neural Networks
-This project is part of Microsoft Student Accelerator 2020: AI & Advanced Analytics and is my first attempt at an artificial neural network. I have chosen to model the strength of concrete as it is not only the material that is the foundation for every structure but is also relevant to my studies in civil engineering.
+This project is part of Microsoft Student Accelerator 2020: AI & Advanced Analytics and is my first attempt at an artificial neural network. I have chosen to model the strength of concrete as it is not only the material that is the foundation for every structure but is also relevant to my studies in civil and structural engineering.
 
 ## Summary
 Concrete is one of the most important materials in the world and is ubiquitous in buildings. However, unlike other equally important materials, concrete is highly complex in its composition and formation at the molecular level. Due to this, predicting its strength through physically derived models is particularly difficult and predictions largely rely on experimental data.
@@ -10,6 +10,7 @@ This project aims to predict the compressive strength of concrete with an artifi
 ## Environment Setup
 This project uses TensorFlow 2.2.0 and Keras Tuner 1.0.1. Instructions for installing TensorFlow locally can be found [here](https://www.tensorflow.org/install). GPU compute is also used to accelerate training.
 
+### Dependencies
     pip install -U virtualenv
     pip install -U jupyter
     pip install -U Ipython
@@ -19,6 +20,9 @@ This project uses TensorFlow 2.2.0 and Keras Tuner 1.0.1. Instructions for insta
     pip install -U matplotlib
     pip install -U seaborn
     pip install -U scipy
+
+## Running the Model
+To run the model, simply run all cells in the notebook sequentially after installing the necessary dependencies with pip.
 
 ## What I Learnt
 
